@@ -79,3 +79,27 @@ body {
 	font-size: 1.5em;
 	font-family: 'Fjalla One', sans-serif;
 }
+
+form {
+	padding: 20px;
+}
+
+input[type='text'] {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 6px 0;
+	background: #9d50bb; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #6e48aa, #9d50bb);
+	background: linear-gradient(to right, #6e48aa, #9d50bb);
+	color: #fff;
+	border: 0;
+}
+
+input[type='submit'] {
+	margin: 10px auto;
+	background: #eee;
+	border: 0;
+	padding: 6px 20px;
+	display: block;
+}
